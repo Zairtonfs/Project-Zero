@@ -1,0 +1,198 @@
+@import url('https://fonts.cdnfonts.com/css/azonix');
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: linear-gradient(107.56deg, #2F86B8 0%, #130450 100%);
+    margin: 0;
+}
+.top-menu{
+    background: linear-gradient(112.25deg, #2B0154 29.04%, #0D001E 60.64%);
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.37);
+    color: white;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 1.1vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    padding-left: 0;
+    padding-right: 32vw;
+    border-radius: 1%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.top-menu-list{
+    transition: transform 0.3s ease;
+}
+.top-menu-list:hover{
+    transform: scale(1.1)
+}
+.games{
+    margin-top: 15vw;
+}
+.caption{
+    color: white;
+    font-size: 2vw;
+    text-align: left;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    margin-left: 10vw;
+    font-family: 'Azonix', sans-serif;
+} 
+.tlou {
+    width: 12vw;
+    height: 16vw;
+    border-radius: 5px;
+    background-color: #0D001E;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.555);
+  }
+  .tlou:hover{
+    transform: scale(1.1)
+  }
+  
+  .tlou img {
+    justify-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .tlou-content {
+    margin-top: 10px;
+  }
+  
+  .tlou-content h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .tlou-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .hellblade {
+    width: 12vw;
+    height: 16vw;
+    border-radius: 5px;
+    background-color: #0D001E;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.555);
+  }
+  .hellblade:hover{
+    transform: scale(1.1)
+  }
+  .hellblade img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .hellblade-content {
+    margin-top: 10px;
+  }
+  
+  .hellblade-content h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .hellblade-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .fallout {
+    width: 12vw;
+    height: 16vw;
+    border-radius: 5px;
+    background-color: #0D001E;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.555);
+  }
+.fallout:hover{
+    transform: scale(1.1)
+}
+  .fallout img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .fallout-content {
+    margin-top: 10px;
+  }
+  
+  .fallout-content h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .fallout-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+.card{
+    width: 30vw;
+    background-color: #130450;
+    border-radius: 8px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.555);
+    padding: 1vw;
+    transition: transform 0.3s ease;
+  }
+  .card-content{
+    text-align: center;
+  }
+  .card-content h2{
+    font-size: 1.2vw;
+    margin-bottom: 0.3vw;
+    color: white;
+  }
+  .card-content p{
+    text-align: left;
+    font-size: 0.8vw;
+    color: #ffffff;
+  }
+  .card-2{
+    width: 30vw;
+    background-color: #130450;
+    border-radius: 8px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.555);
+    padding: 1vw;
+    transition: transform 0.3s ease;
+  }
+  .card-content-2{
+    text-align: center;
+  }
+  .card-content-2 h2{
+    font-size: 1.2vw;
+    margin-bottom: 0.3vw;
+    color: white;
+  }
+  .card-content-2 p{
+    text-align: left;
+    font-size: 0.8vw;
+    color: #ffffff;
+  }
+  .card-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10vw;
+}
+.card:hover{
+    transform: scale(1.1)
+}
+.card-2:hover{
+    transform: scale(1.1)
+}
+.container-cards{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.container-cards h2{
+font-size: 1.2vw;
+}
+.tlou img{
+    text-align:center;
+}
